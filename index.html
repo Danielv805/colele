@@ -1,0 +1,33 @@
+html = r'''<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colele</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="game">
+    <header>
+      <h1>COLELE</h1>
+      <p class="subtitle">Wordle, but the answer is always Cole.</p>
+    </header>
+
+    <section id="board" class="board" aria-label="Colele board"></section>
+
+    <p id="message" class="message" aria-live="polite"></p>
+
+    <section id="keyboard" class="keyboard" aria-label="Keyboard"></section>
+
+    <button id="reset" class="reset" type="button">Play Again</button>
+
+    <footer>
+      <span>There is only one correct answer.</span>
+      <span>© Colele</span>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+'''
